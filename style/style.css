@@ -1,0 +1,59 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    outline: 0rem;
+    border: 0rem;
+    box-sizing: border-box;
+    font-family: "Galada";
+}
+
+body{
+    background-color: cornsilk;
+}
+
+header{
+    height: 5rem;
+    width: 100%;
+    background-color: cadetblue;
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: lightgrey;
+}
+
+main {
+    height: calc(100vh - 11.5rem);
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section {
+    height: calc(100vh - 12rem);
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+
+img{
+    height: 5rem;
+}
+
+footer{
+    margin-top: 0.30rem;
+    height: 3rem;
+    width: 100%;
+    text-align: left;
+    background-color: cadetblue;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
